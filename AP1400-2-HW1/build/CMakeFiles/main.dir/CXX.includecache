@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/hw1.h
+vector
+-
+
+/workspaces/AP1400-2-HW1/src/hw1.cpp
+hw1.h
+/workspaces/AP1400-2-HW1/src/hw1.h
+random
+-
+iomanip
+-
+iostream
+-
+algorithm
+-
+
+/workspaces/AP1400-2-HW1/src/main.cpp
+iostream
+-
+gtest/gtest.h
+-
+hw1.h
+/workspaces/AP1400-2-HW1/src/hw1.h
+
+/workspaces/AP1400-2-HW1/src/unit_test.cpp
+gtest/gtest.h
+/workspaces/AP1400-2-HW1/src/gtest/gtest.h
+gmock/gmock.h
+/workspaces/AP1400-2-HW1/src/gmock/gmock.h
+hw1.h
+/workspaces/AP1400-2-HW1/src/hw1.h
+

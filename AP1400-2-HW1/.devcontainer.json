@@ -1,0 +1,11 @@
+{
+  "build": { "dockerfile": "Dockerfile" },
+
+  "customizations": {
+    "vscode": {
+      "extensions": ["twxs.cmake","llvm-vs-code-extensions.vscode-clangd"]
+    }
+  },
+
+  "forwardPorts": [3000]
+}
